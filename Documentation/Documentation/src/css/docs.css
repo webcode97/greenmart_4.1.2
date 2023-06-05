@@ -1,0 +1,579 @@
+@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+
+.h_red
+{
+	color: #ff0000;
+}
+body {
+	color: #333;
+	line-height: 24px;
+}
+h2 {
+	font-size: 38px;
+	padding-top: 30px;
+}
+a  {
+	color: #2b87c3;
+}
+.step {
+    display: inline-block;
+    width: auto;
+    color: #fff;
+    background: #2b87c3;
+    padding: 5px;
+    margin-top: 10px;
+}
+.vg-content img {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.accent {
+	color: #2b87c3;
+}
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+h3.accent {
+	font-size: 30px;
+	font-weight: 700;
+}
+h4 {
+	line-height: normal;
+}
+ul.option {
+	list-style: none;
+}
+b, strong {
+	color: #000;
+}
+
+html body
+{
+	background-color: #fff;
+	padding-top: 0px;
+}
+html body *
+{
+	font-family: 'Open Sans', sans-serif;
+}
+html .header,
+html .footer
+{
+	background-color: #2b87c3;
+	color: #ffffff;
+	position: relative;
+	z-index: 100;
+}
+html .footer a
+{
+	color: #ffffff;
+}
+html .header .mmm
+{
+	min-height: 130px;
+	line-height: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+html .header .mmm
+{
+	text-align: center;
+}
+html .header .mmm > span
+{
+	font-size: 60px;
+	font-weight: 300; 
+	vertical-align: middle;
+	position: relative;
+}
+html .header .mmm > span:after
+{
+	content: 'Documentation';
+	display: inline-block;
+	white-space: nowrap;
+	position: absolute;
+	font-size: 13px;
+}
+html .footer
+{
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+html .primary_content .page-header
+{
+	margin-bottom: 20px;
+	padding-bottom: 0px;
+	margin-top: 0;
+}
+html .small_caption
+{
+	padding-top: 45px;
+	margin-top: 0px;
+}
+html body img
+{
+	max-width: 100%;
+	width: auto;
+}
+html body .no_top_margin
+{
+	margin-top: 0px !important;
+}
+
+
+body {
+	position: relative; /* For scrollyspy */
+	padding-top: 50px; /* Account for fixed navbar */
+}
+/*
+ * Main navigation
+ *
+ * Turn the `.navbar` at the top of the docs purple.
+ */
+
+.bs-docs-nav {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+	background-color: #563d7c;
+	border-color: #463265;
+	box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+.bs-docs-nav .navbar-collapse {
+	border-color: #463265;
+}
+.bs-docs-nav .navbar-brand {
+	color: #fff;
+}
+.bs-docs-nav .navbar-nav > li > a {
+	color: #cdbfe3;
+}
+.bs-docs-nav .navbar-nav > li > a:hover {
+	color: #fff;
+}
+.bs-docs-nav .navbar-nav > .active > a,
+.bs-docs-nav .navbar-nav > .active > a:hover {
+	color: #fff;
+	background-color: #463265;
+}
+.bs-docs-nav .navbar-toggle {
+	border-color: #563d7c;
+}
+.bs-docs-nav .navbar-toggle:hover {
+	background-color: #463265;
+	border-color: #463265;
+}
+
+/*
+ * Side navigation
+ *
+ * Scrollspy and affixed enhanced navigation to highlight sections and secondary
+ * sections of docs content.
+ */
+
+/* By default it's not affixed in mobile views, so undo that */
+.bs-sidebar.affix {
+	position: static;
+}
+
+/* First level of nav */
+.bs-sidenav {
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* All levels of nav */
+.bs-sidebar .nav  .nav  > li{
+	margin-bottom: 0;
+}
+.bs-sidebar .nav  > li{
+	background-color: #f7f5fa;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.bs-sidebar .nav  > li.active {
+	background-color: #2b87c3;
+}
+.bs-sidebar .nav  > li.active > a {
+	color: #fff;
+}
+.bs-sidebar .nav > li.active > a:hover {
+    color: #fff;
+}
+.bs-sidebar li.active > a:before {
+	border-left-color: #fff;
+}
+
+.bs-sidebar .nav > li > a {
+	display: block;
+	color: #716b7a;
+	padding: 5px 20px;
+	text-shadow: none;
+}
+.bs-sidebar >.nav > li > a {
+	border-bottom: 1px solid #ddd;
+	font-size: 16px;
+	line-height: 30px;
+	color: #555;
+	font-weight: bold;
+}
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
+	text-decoration: none;
+	background-color: transparent;
+	border-right: 1px solid #dbd8e0;
+}
+.bs-sidebar .nav > .active > a
+{
+	font-weight: bold;
+}
+.bs-sidebar .nav li > a:hover {
+	color: #2b87c3;
+}
+/* Nav: second level (shown on .active) */
+.bs-sidebar .nav .nav {
+	padding: 5px 0;
+	background-color: #f7f5fa;
+	display: none;
+}
+.bs-sidebar li li {
+	padding-left: 20px;
+}
+.bs-sidebar .nav .nav > li > a {
+	padding-top:    3px;
+	padding-bottom: 3px;
+	font-size: 90%;
+	padding-right: 5px;
+}
+
+.bs-sidebar li > a:before {
+	content: '';
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-width: 3px 4px;
+	border-style: solid;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: #444444;
+	position: relative;
+	top: -2px;
+	left: -5px;
+}
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+	.bs-sidebar .nav > .active > ul {
+		display: block;
+	}
+	/* Widen the fixed sidebar */
+	.bs-sidebar.affix {
+		position: relative; /* Undo the static from mobile first approach */
+		margin-top: 55px;
+	}
+	.bs-sidebar.affix-bottom {
+		position: absolute; /* Undo the static from mobile first approach */
+	}
+	.bs-sidebar.affix-bottom .bs-sidenav,
+	.bs-sidebar.affix .bs-sidenav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+
+h1[id] {
+	padding-top: 80px;
+	margin-top: -45px;
+	font-weight: 300;
+}
+
+
+.sidebar_overlayer {
+	height: 300px;
+	width: 101%;
+	position: relative;
+	z-index: 10;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ECF0F1 65%, transparent 100%);
+	background: -webkit-linear-gradient(top, #ECF0F1 65%, transparent 100%);
+	background: -o-linear-gradient(top, #ECF0F1 65%, transparent 100%);
+	background: -ms-linear-gradient(top, #ECF0F1 65%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #ECF0F1), color-stop(100%, transparent));
+	background: linear-gradient(to bottom, #ECF0F1 65%, transparent 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ECF0F1', endColorstr='transparent',GradientType=0 );
+}
+
+/* VinaGecko Documentation */
+.header {
+	padding: 50px 0;
+	text-align: center;
+}
+.vg-link  {
+	margin-top: 20px;
+}
+.vg-link a {
+	color: #fff;
+	margin: 5px;
+	padding: 10px 15px;
+	background: rgba(255,255,255,0.2);
+	box-shadow: none !important;
+}
+.vg-link a:hover {
+	color: #2b87c3;
+	background: rgba(255,255,255,0.8);
+}
+.sidebar_overlayer {
+    display: none;
+}
+
+.vg-content {
+	display: none;
+}
+.date {
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+.version {
+	color: #F0CE16;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+::selection {
+    background: #2b87c3;
+    text-shadow: none;
+	color: #fff;
+}
+
+.entry-title {
+	padding-top: 40px;
+}
+.tem-important-title {
+    background: #FF7F50;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.tem-note {
+    background: #E7F2FA;
+    padding: 10px 20px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.note {
+	margin: 0 5px;
+	display: inline-block;
+	color: #FF7F50;
+	border-bottom: 1px dotted #FF7F50;
+}
+.video {
+    font-size: 23px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #189F2B;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+iframe {
+	max-width: 100%;
+}
+h5 {
+	font-weight: bold;
+	margin-top: 30px;
+}
+.page-header {
+    border-bottom: 3px solid #ddd;
+}
+.widget {
+	margin-top: 50px;
+    margin-bottom: 20px;
+}
+.note {
+    color: #ffc107;
+}
+
+@media screen and (min-width: 767px) {
+	.bs-sidebar.affix.fixed {
+		position: fixed;
+		top: 0;
+		margin-top: 15px;
+	}
+}
+.bs-sidebar .nav .nav {
+    display: none;
+}
+.bs-sidebar .nav > .active > ul {
+    display: block;
+}
+
+.bold {
+    font-weight: 700;
+}
+.entry-title.steps {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+    padding: 15px 20px;
+}
+
+img.view {
+	border: 3px solid #2b87c3;
+}
+
+tr.view-icons {
+    background: #666;
+    color: #fff;
+    line-height: 47px;
+}
+.table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td {
+    line-height: 31px;
+}
+
+ul.feature a {
+	color: #000;
+}
+ul.feature a.accent {
+	color: #2b87c3;
+}
+
+.m_logo img {
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
+}
+@media screen and (min-width: 1500px) {
+	.bs-sidebar.affix.fixed {
+		width: 370px;
+	}
+}
+@media screen and (max-width: 1499px) {
+	.bs-sidebar.affix.fixed {
+		width: 23%;
+	}
+}
+@media screen and (max-width: 991px) {
+	.bs-sidebar.affix.fixed {
+		width: 16%;
+	}
+	.header {
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.bs-sidebar.affix.fixed {
+		width: 100%;
+	}
+}
+img.lazy {
+	width: 100%; 
+	height: 300px; 
+	display: block;
+	background-image: url('../img/load/lg.circle-slack-loading-icon.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+}
+img.lazy.loaded {
+	width: auto; 
+	height: auto;
+	    background: transparent;
+}
+.video-link {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.show-code {
+    border: 1px solid #005cb9;
+    background-color: #f1f5f9;
+    overflow: auto;
+    margin-bottom: 1.7em;
+    padding: 1em!important;
+    overflow-y: hidden;
+}
+#back-to-top {
+	-webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+	position: fixed;
+	right: 15px;
+	bottom: -50px;
+	cursor: pointer;
+	    z-index: 200;
+		width: 40px;
+}
+#back-to-top a {
+	display: block;
+	text-align: center;
+	margin-bottom: 7px;
+}
+#back-to-top.fixed {
+	bottom: 15px;
+}
+.list-skins {
+	padding-top: 20px;
+    padding-bottom: 20px;
+    background: #2b87c3;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.list-skins .support {
+	display: inline-block;
+	background: #FFB240;
+	padding: 3px 10px;
+	border-radius: 5px;
+	margin: 0 3px;
+	color: #212B36;
+	font-size: 14px;
+}
+.list-skins .support.bakery {
+	background: #00AB55;
+	color: #fff;
+}
+#back-to-top i {
+	font-size: 40px;
+}
+html .footer {
+	z-index: 0;
+	background-color: #f4f9fc;
+	color: #333;
+}
+html .footer a {
+    color: #fd6e4f;
+}
+.contributors {
+	text-align: center;
+	margin-top: 50px;
+}
+.contributors-img img {
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.tem-important-title.big {
+    font-size: 30px;
+    line-height: normal;
+}
+.mr-top-30 {
+	margin-top: 30px;
+}
+.mr-top-60 {
+	margin-top: 60px;
+}
+.mr-top-80 {
+	margin-top: 80px;
+}
+.mr-top-100 {
+	margin-top: 100px;
+}

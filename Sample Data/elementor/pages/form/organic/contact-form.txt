@@ -1,0 +1,7 @@
+<p><span class="icon- icon-user"></span> [text* your-name placeholder "Name"] </p>
+ 
+<p><span class="icon- icon-envelope"></span>[email* your-email placeholder "Email"] </p>
+ 
+<p><span class="icon- icon-pencil"></span>[textarea your-message placeholder "Message"] </p>
+ 
+<p style="text-align:right;"></span>[submit "Send"]</p>
